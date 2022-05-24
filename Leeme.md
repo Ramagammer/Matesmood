@@ -10,3 +10,8 @@ Proyecto
 5. Apreta denuevo CTRL + N y despues CTRL + S, para abrir una nueva ventana pero esta vez guardalo con el nombre de "estilo.css" en la carpeta que creaste. Y dentro de esta copia e codigo que esta en el archivo "estilo.css" que esta en este enlace.
 6. click derecho, guardar como en todas las imagenes que te pase en este enlace. (MUY IMPORTANTE QUE GUARDES CON EL MISMO NOMBRE QUE ESTAN EN ESTE ENLACE LAS FOTOS(Se puede dañar el codigo sino) Y QUE LAS GUARDES DENTRO DE LA CARPETA QUE CREASTE EN EL PASO N°2.).
 7. Una vez que hiciste correctamente todo y guardaste cada ventana con CTRL+S. Cerra todo entra a la carpeta qe creaste y abri el archivo Index.html, Y Listo.
+
+
+
+
+Nota: Respeta muy bien los nombres que te dicte de cada archivo porque sino el programa no va a funcionar.
