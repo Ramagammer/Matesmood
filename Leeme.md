@@ -14,4 +14,4 @@ Proyecto
 
 
 
-Nota: Respeta muy bien los nombres que te dicte de cada archivo, porque sino el programa no va a funcionar.
+Nota: Respeta muy bien los nombres que te dicte de cada archivo(Mayusculas y minusculas tambien), porque sino el programa no va a funcionar.
