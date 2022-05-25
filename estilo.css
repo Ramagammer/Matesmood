@@ -75,7 +75,7 @@ section{
 
 h1{
 	margin: 20px 0 40px;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Bebas Neue', cursive;
 }
 
 h3{
@@ -155,6 +155,7 @@ h3{
     text-align: center;
 }
 
+
 .container{
 	width: 100%;
 	max-width: 1200px;
@@ -163,6 +164,7 @@ h3{
 	flex-wrap: wrap; 
 	justify-content: center;
 	margin: auto;
+	margin-bottom: 650px;
 }
 
 .container .card{
@@ -202,7 +204,12 @@ h3{
 	color: #3498db;
 }
 
-@media screen and (max-width:800px){
+.container .card a:hover{
+	color: #00D1FF;
+}
+
+
+@media screen and (max-width:856px){
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
@@ -231,27 +238,60 @@ h3{
   }
 
 
- @media screen and (max-width:800px){
+ @media screen and (max-width:856px){
         .container {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
         padding: 35px 0px;
-        margin-bottom: 1400px;
+        margin-bottom: 3400px;
     }  
 }
 
 
 
-@media only screen and (min-width: 800px) and (max-width: 1110px){
+@media only screen and (min-width: 856px) and (max-width: 1110px){
 	    .container {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
         padding: 35px 0px;
-        margin-bottom: 700px;
+        margin-bottom: 1400px;
 }
 
 }
 
+
+.imperialhead{
+	border-bottom: 4px solid #D6D4D4;
+	margin-bottom: 60px;
+}
+
+.imperialesTexto{
+	text-align: center;
+	margin: 100px;
+	margin-top: 120px;
+	font-family: 'Noto Serif', serif;
+}
+
+.botones{
+	display: flex;
+	flex-wrap: wrap; 
+	margin: 40px 0 140px;
+	justify-content: center;
+}
+
+#back{
+    padding: 20px;
+    border-color: transparent;
+    background: #D6D4D4;
+    font-family: 'Kanit', sans-serif;   
+}
+
+#back:hover{
+	transition: 0.2s;
+	border-radius: 14px;
+	background: #000;
+	color: #ffffff;
+}
 
