@@ -295,3 +295,33 @@ h3{
 	color: #ffffff;
 }
 
+#back1{
+    padding: 20px;
+    border-color: transparent;
+    background: #D6D4D4;
+    font-family: 'Kanit', sans-serif;
+}
+
+#back1:hover{
+    transition: 0.2s;
+    border-radius: 14px;
+    background: #000;
+    color: #ffffff;
+}
+
+#back2{
+    padding: 20px;
+    border-color: transparent;
+    background: #D6D4D4;
+    font-family: 'Kanit', sans-serif;
+}
+
+#back2:hover{
+    transition: 0.2s;
+    border-radius: 14px;
+    background: #000;
+    color: #ffffff;
+}
+
+
+ 
