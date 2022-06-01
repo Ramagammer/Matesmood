@@ -1,50 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>𝙈𝘼𝙏𝙀𝙎𝙈𝙊𝙊𝘿 🧉</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Libre+Baskerville:ital@1&family=Noto+Serif&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
 <body>
        <header>
-     		<img id="logo" src="logo.png" alt="Matesmood logo">
-     	</div>
+            <img id="logo" src="logo.png" alt="Matesmood logo">
+        </div>
      </header>
      <nav>
-     	<a href="Index.html">Nosotros</a>
-     	<a href="Catalogo.html">Catalogo</a>
+        <a href="Index.html">Nosotros</a>
+        <a href="Catalogo.html">Catalogo</a>
      </nav>
      <main>
-     		<section>
-     			<h1>𝙈𝘼𝙏𝙀𝙎𝙈𝙊𝙊𝘿</h1>
-     			<p>• Somos MATESMOOD •<br><br>
+            <section>
+                <h1>𝙈𝘼𝙏𝙀𝙎𝙈𝙊𝙊𝘿</h1>
+                <p>• Somos MATESMOOD •<br><br>
 
                    • Nos dedicamos a la venta de mates y bombillas de primera calidad, termos, yerberos, mates personalizados y bombillas hechas a pedido!.<br><br>
 
                    • Porque las mejores cosas de la vida, estan destinadas a ser compartidas.</p>
-     		</section>
-     		<section class="ubicacion">
-     				<div class="descripcion">     				
-     				<h3>Nuestra ubicacíon!</h3>
-     				<p>Nos encontramos en Castelar (Zona oeste), Bs.As., Argentina.</p>
-     				</div>
-     				<p>📍 | Castelar.</p>
-     		        <div class="map-responsive">
-     		        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15168.644186172063!2d-58.64706177608038!3d-34.64828753546109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf54729c9b2b%3A0x848c329d874d6114!2sCastelar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1653257898054!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-     		        </div>
-     		</section>
-     	</div>
+            </section>
+            <section class="ubicacion">
+                    <div class="descripcion">                   
+                    <h3>Nuestra ubicacíon!</h3>
+                    <p>Nos encontramos en Castelar (Zona oeste), Bs.As., Argentina.</p>
+                    </div>
+                    <p>📍 | Castelar.</p>
+                    <div id="map"></div>
+            </section>
+        </div>
      </main>
-     	<footer class="pie-pagina">
+        <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
                 <figure>
@@ -68,5 +51,8 @@
             <small>&copy; 2022 <b>Matesmood</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
 </body>
 </html>
