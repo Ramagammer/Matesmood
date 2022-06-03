@@ -242,6 +242,7 @@ h3{
 
     .pie-pagina .grupo-1 .box p{
         text-align: center;
+        margin-left: -65px;
     }
  
     .pie-pagina .grupo-1 .red-social {
@@ -457,12 +458,7 @@ h3{
         grid-gap:30px;
         padding: 35px 0px;
         margin-bottom: 1400px;
-    }  .pie-pagina .grupo-1 .box p{
-    color: #000;
-    margin-left: 70px;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
-}
+    }  
 }
 
 
